@@ -25,4 +25,3 @@ TODO LIST:
 - be aware of encoding of CSV files (problem could arise for bank with special names: "Société Générale")
 - page rendering (html/css) is still perfectible
 
-mvn jetty:run

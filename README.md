@@ -1,1 +1,3 @@
 # bcsg
+
+mvn jetty:run
