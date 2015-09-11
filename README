@@ -1,0 +1,28 @@
+What I understand about the webApp:
+- show cards (pagination?) with specific order
+- add card (manually)
+- add cards (csv)
+- only store data for the duration of the user's session (I would like to ask question about this, is this a business requirement or a way to keep the webApp simple for the demonstration)
+
+Specified requirements:
+- Java 7
+- maven
+
+I add the following:
+- responsive design
+
+SPRING Framework allows to implements all layers of the application in a very clean way, allowing tests, etc.
+Bootstrap is a must for responsive design and have good looking components.
+
+There is still a lot of things to do (but I've spend much more time than the two hours required, and basic requirements are met):
+TODO LIST:
+- nice formatter for card number
+- pagination
+- more tests (units tests an integration tests) validating at least basic requirements (ordering, -xxxx replacements)
+- control over validation messages
+- internationalization (on my computer validation messages are in French, others part of the webApp are in English)
+- add logs
+- be aware of encoding of CSV files (problem could arise for bank with special names: "Société Générale")
+- page rendering (html/css) is still perfectible
+
+mvn jetty:run
